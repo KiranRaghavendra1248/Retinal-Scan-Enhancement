@@ -6,7 +6,7 @@ import os
 
 # Parameters
 IMG_SIZE=512
-img_name='test_img2'
+img_name='test_img1'
 img_path='Inputs/'+img_name+'.jpeg'
 def enhance(path, sigmaX=10):
     image = cv2.imread(path)
